@@ -4,9 +4,9 @@
     "description": "Generic abstractions related to Api",
     "license": "MIT",
     "require": {
-        "php": "^8.1",
+        "php": "^8.2",
         "api-platform/core": "^2.7 || ^3.1",
-        "symfony/serializer": "^6.1"
+        "symfony/serializer": "^6.4 || ^7.1"
     },
     "autoload": {
         "psr-4": {
@@ -32,7 +32,7 @@
     ],
     "extra": {
         "branch-alias": {
-            "dev-master": "0.10-dev"
+            "dev-master": "0.11-dev"
         }
     },
     "require-dev": {
